@@ -21,6 +21,10 @@
     NSLog(@"third VC commit");
     NSLog(@"third VC commit");
     
+    NSLog(@"再次提交 哈哈哈哈哈哈哈哈哈");
+    NSLog(@"再次提交 哈哈哈哈哈哈哈哈哈");
+    NSLog(@"再次提交 哈哈哈哈哈哈哈哈哈");
+    
 }
 
 - (void)didReceiveMemoryWarning {

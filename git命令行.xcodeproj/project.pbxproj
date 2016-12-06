@@ -107,6 +107,7 @@
 		9D90D04B1DF648D2003D07EF /* git命令行 */ = {
 			isa = PBXGroup;
 			children = (
+				9D90D0851DF69CDC003D07EF /* Images */,
 				9D90D04F1DF648D3003D07EF /* AppDelegate.h */,
 				9D90D0501DF648D3003D07EF /* AppDelegate.m */,
 				9D90D0521DF648D3003D07EF /* ViewController.h */,
@@ -148,6 +149,13 @@
 				9D90D0731DF648D3003D07EF /* Info.plist */,
 			);
 			path = "git命令行UITests";
+			sourceTree = "<group>";
+		};
+		9D90D0851DF69CDC003D07EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
