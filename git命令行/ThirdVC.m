@@ -1,27 +1,22 @@
 //
-//  SecondVC.m
+//  ThirdVC.m
 //  git命令行
 //
 //  Created by YinlongNie on 16/12/6.
 //  Copyright © 2016年 Jiuzhekan. All rights reserved.
 //
 
-#import "SecondVC.h"
+#import "ThirdVC.h"
 
-@interface SecondVC ()
+@interface ThirdVC ()
 
 @end
 
-@implementation SecondVC
+@implementation ThirdVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"第二次提交 新建一个SecondVC");
-    
-    NSLog(@"第三次提交---- 打印一个log😆😢😁😔🌹");
-    NSLog(@"第三次提交---- 打印一个log😆😢😁😔🌹");
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,8 @@
 		9D90D05C1DF648D3003D07EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D90D05A1DF648D3003D07EF /* LaunchScreen.storyboard */; };
 		9D90D0671DF648D3003D07EF /* git___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0661DF648D3003D07EF /* git___Tests.m */; };
 		9D90D0721DF648D3003D07EF /* git___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0711DF648D3003D07EF /* git___UITests.m */; };
+		9D90D0811DF6504B003D07EF /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0801DF6504B003D07EF /* SecondVC.m */; };
+		9D90D0841DF665B0003D07EF /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0831DF665B0003D07EF /* ThirdVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9D90D06D1DF648D3003D07EF /* git命令行UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git命令行UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D90D0711DF648D3003D07EF /* git___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "git___UITests.m"; sourceTree = "<group>"; };
 		9D90D0731DF648D3003D07EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D90D07F1DF6504B003D07EF /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		9D90D0801DF6504B003D07EF /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		9D90D0821DF665B0003D07EF /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		9D90D0831DF665B0003D07EF /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				9D90D0501DF648D3003D07EF /* AppDelegate.m */,
 				9D90D0521DF648D3003D07EF /* ViewController.h */,
 				9D90D0531DF648D3003D07EF /* ViewController.m */,
+				9D90D07F1DF6504B003D07EF /* SecondVC.h */,
+				9D90D0801DF6504B003D07EF /* SecondVC.m */,
+				9D90D0821DF665B0003D07EF /* ThirdVC.h */,
+				9D90D0831DF665B0003D07EF /* ThirdVC.m */,
 				9D90D0551DF648D3003D07EF /* Main.storyboard */,
 				9D90D0581DF648D3003D07EF /* Assets.xcassets */,
 				9D90D05A1DF648D3003D07EF /* LaunchScreen.storyboard */,
@@ -278,6 +288,8 @@
 			files = (
 				9D90D0541DF648D3003D07EF /* ViewController.m in Sources */,
 				9D90D0511DF648D3003D07EF /* AppDelegate.m in Sources */,
+				9D90D0841DF665B0003D07EF /* ThirdVC.m in Sources */,
+				9D90D0811DF6504B003D07EF /* SecondVC.m in Sources */,
 				9D90D04E1DF648D3003D07EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,7 @@
 				9D90D0781DF648D3003D07EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D90D0791DF648D3003D07EF /* Build configuration list for PBXNativeTarget "git命令行Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				9D90D07B1DF648D3003D07EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D90D07C1DF648D3003D07EF /* Build configuration list for PBXNativeTarget "git命令行UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				9D90D07E1DF648D3003D07EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
