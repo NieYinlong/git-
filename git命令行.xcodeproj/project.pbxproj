@@ -17,6 +17,7 @@
 		9D90D0721DF648D3003D07EF /* git___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0711DF648D3003D07EF /* git___UITests.m */; };
 		9D90D0811DF6504B003D07EF /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0801DF6504B003D07EF /* SecondVC.m */; };
 		9D90D0841DF665B0003D07EF /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D90D0831DF665B0003D07EF /* ThirdVC.m */; };
+		9D90D0871DF6AB35003D07EF /* 20161206.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D90D0861DF6AB35003D07EF /* 20161206.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9D90D0801DF6504B003D07EF /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		9D90D0821DF665B0003D07EF /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
 		9D90D0831DF665B0003D07EF /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		9D90D0861DF6AB35003D07EF /* 20161206.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20161206.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		9D90D0851DF69CDC003D07EF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9D90D0861DF6AB35003D07EF /* 20161206.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D90D05C1DF648D3003D07EF /* LaunchScreen.storyboard in Resources */,
+				9D90D0871DF6AB35003D07EF /* 20161206.png in Resources */,
 				9D90D0591DF648D3003D07EF /* Assets.xcassets in Resources */,
 				9D90D0571DF648D3003D07EF /* Main.storyboard in Resources */,
 			);
